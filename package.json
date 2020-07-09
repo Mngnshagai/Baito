@@ -39,7 +39,16 @@
     "@types/react-native": "~0.62.13",
     "babel-preset-expo": "~8.1.0",
     "jest-expo": "~38.0.0",
-    "typescript": "~3.9.5"
+    "typescript": "~3.9.5",
+    "@typescript-eslint/eslint-plugin": "^2.19.2",
+    "@typescript-eslint/parser": "^2.19.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-flowtype": "^4.6.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "prettier": "^1.19.1"
   },
   "private": true
 }
