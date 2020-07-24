@@ -26,7 +26,8 @@ module.exports = {
       'react/jsx-filename-extension': ['error', { extensions: ['.tsx'] }],
       'react/no-unescaped-entities': 'off',
       'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
-      'react-hooks/exhaustive-deps': 'warn' // Checks effect dependencies
+      'react-hooks/exhaustive-deps': 'warn', // Checks effect dependencies
+      'react/no-string-refs': 'off',
     },
     plugins: ['prettier', 'react', 'react-hooks'],
   };
