@@ -6,6 +6,11 @@ import useCachedResources from './hooks/useCachedResources';
 import useColorScheme from './hooks/useColorScheme';
 import Navigation from './navigation';
 
+import firebase from 'firebase';
+import { firebaseConfig } from './config';
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
 export default function App() {
   const isLoadingComplete = useCachedResources();
   const colorScheme = useColorScheme();
